@@ -1,0 +1,119 @@
+html,body,*{
+    font-family:"Open Sans", HelveticaNeue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-width: 400px;
+    max-width: 1600px;
+    min-height: 650px;
+    background: url(../assets/binder-left.png) left top repeat-y;
+    background-size: 100px auto;
+    font-size: 16px;
+}
+a[href$=".pdf"]::after,
+a[href$=".docx"]::after{
+    content: "";
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0;
+    vertical-align: middle;
+}
+a[href$=".pdf"]::after {
+    background-image: url("icons8-pdf-30.png");
+}
+a[href$=".docx"]::after {
+    background-image: url("doc.png");
+}
+/* BINDER CONTENT STYLING */
+
+.tab-content {
+    box-sizing: border-box;
+    font-size: 1em;
+    padding-top: 50px;
+    padding-left: 120px;
+    width: 85%;
+    height: 100vh;
+    border-top: 5px solid #092240;
+    border-bottom: 5px solid #092240;
+}
+
+.tab-content li {
+    line-height: 2;
+    margin-left: 1em;
+}
+
+/* BINDER TABS STYLING */
+.binder-sidenav {
+    height: 100vh;
+    width: 15%; 
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left:85%;
+    background-color: #092240;
+    padding: 10px 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.side-tabs {
+    height: 100%;
+    width: 100%;
+    border-left: #be1e2d 10px solid;
+}
+
+.tab-button {
+    overflow: hidden;
+    flex-grow: 1;
+    flex-basis: 0;
+    color: white;
+    align-self: center;
+    margin: 3px  0;
+    box-sizing: content-box;
+    padding: 5px 10px;
+    text-shadow: 1px 1px 3px rgb(3, 3, 3);
+    box-shadow: 5px 5px 5px rgb(3, 3, 3);
+    border-top-right-radius: 5px;
+    border-right: 10px solid #ffffff00;
+}
+.tab-button.selected{
+    border-right: 10px solid #ffffff55;
+}
+.tab-button-active:hover {
+    cursor: pointer;
+    color: lightgrey;
+}
+.tab-button:nth-child(9n+1) {
+    background-color: #be1e2d;    
+}
+.tab-button:nth-child(9n+2) {
+    background-color: #252775;
+}
+.tab-button:nth-child(9n+3) {
+    background-color: #009444;
+}
+.tab-button:nth-child(9n+4) {
+    background-color: #fbb040;
+}
+.tab-button:nth-child(9n+5) {
+    background-color: #9e1f63;
+}
+.tab-button:nth-child(9n+6) {
+    background-color: #0072bc;
+}
+.tab-button:nth-child(9n+7) {
+    background-color: #f15a22;
+}
+.tab-button:nth-child(9n+8) {
+    background-color: #592a87;
+}
+.tab-button:nth-child(9n+9) {
+    background-color: #00a9a3;
+}
