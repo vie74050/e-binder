@@ -48,7 +48,7 @@ And the ebinder code would take the tab-text and make the tab elements.
     <div class="tab-button tab-button-active">
 ```
 
-## How to reporduce the issue
+## How to reproduce the issue
 
 If SME edits the original HTML using the WYSIWYG editor (“EditHTML”) and saves, then what gets saved is the generated HTML, which then messes up the code since “tab-text” is no longer available.
 
