@@ -10,12 +10,12 @@ body {
     min-width: 400px;
     max-width: 1600px;
     min-height: 650px;
-    background: url(../assets/binder-left.png) left top repeat-y;
+    background: url(binder-left.png) left top repeat-y;
     background-size: 100px auto;
     font-size: 16px;
 }
-a[href$=".pdf"]::after,
-a[href$=".docx"]::after{
+.tab-content a[href$=".pdf"]::after,
+.tab-content a[href$=".docx"]::after{
     content: "";
     display: inline-block;
     background-size: 100%;
@@ -25,10 +25,10 @@ a[href$=".docx"]::after{
     margin: 0;
     vertical-align: middle;
 }
-a[href$=".pdf"]::after {
+.tab-content a[href$=".pdf"]::after {
     background-image: url("icons8-pdf-30.png");
 }
-a[href$=".docx"]::after {
+.tab-content a[href$=".docx"]::after {
     background-image: url("doc.png");
 }
 /* BINDER CONTENT STYLING */

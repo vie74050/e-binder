@@ -7,7 +7,8 @@ Request from SME Sept 8 2023: Ebinder layout and styles not functioning as expec
 * Updated by Vienna Ly from unknown source  
   * fix tab-text missing issue, and tab readability
 * [Learning Hub Template Page](https://learn.bcit.ca/d2l/le/content/510302/Home)
-  * all scripts and resources are in the `ebinder` folder in the Course Files
+  * all scripts and resources are in the `ebinder` folder in the **Course Files**
+  * `js` and `css` also on `https://learn.bcit.ca/shared/scripts/ebinder/` (permissions required)
 
 ## Diagnosis: The issue
 
