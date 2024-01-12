@@ -2,16 +2,17 @@
 
 Request from SME Sept 8 2023: Ebinder layout and styles not functioning as expected after SME updated the HTML file.
 
-* LTC: Paul Krampitz, cc Jason Chien, Vienna Ly
+* LTC: Arvin Rolos <arolos@bcit.ca>
+  * cc Paul Krampitz, Jason Chien, Vienna Ly
 * SME: Angela Lam
-* Updated by Vienna Ly from unknown source  
+* Updated by Vienna Ly <del>from unknown source</del>
   * fix tab-text missing issue, and tab readability
-* [Learning Hub Template Page](https://learn.bcit.ca/d2l/le/content/510302/Home)
+* [Learning Hub Course Page](https://learn.bcit.ca/d2l/le/content/510302/Home)
   * all scripts and resources are in the `ebinder` folder in the **Course Files**
   * `js` and `css` also on `https://learn.bcit.ca/shared/scripts/ebinder/` (permissions required)
  
-* LOR: there is a copy available on the [BCIT Learning Hub "e-binder"](https://learn.bcit.ca/d2l/lor/manageLO/overview.d2l?lastPage=&ou=29311&isPopup=false&loc=0&title=e-binder&url=https%3A//learn.bcit.ca/d2l/lor/viewer/view.d2l%3Fou%3D6605%26loIdentId%3D38961&lorType=1&loId=52883&loIdentId=38961&moduleId=)
-  * As of Jan 11 2024 -- this version needs to be removed or updated
+* **LOR**: there is a copy available on the [BCIT Learning Hub LOR "e-binder"](https://learn.bcit.ca/d2l/lor/search/search_results.d2l?return=true&ou=29311&loc=0&isPopup=false)
+  * As of Jan 11 2024 -- Updated by Arvin
 
 ## Diagnosis: The issue
 
